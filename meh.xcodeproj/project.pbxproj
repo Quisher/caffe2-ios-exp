@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33F48D807BF2C4539949B571 /* Pods_mehUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4FA2252CF018081F99B5DA /* Pods_mehUITests.framework */; };
+		61CD3F8E5ACD70DE7930ED6D /* Pods_mehTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E57ED0C376462A0D03688D /* Pods_mehTests.framework */; };
+		AC94E2BD1F199DB500813398 /* lion.png in Resources */ = {isa = PBXBuildFile; fileRef = AC94E2BC1F199DB500813398 /* lion.png */; };
+		ACC2C78B1F19847800C2B2D1 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC2C78A1F19847800C2B2D1 /* libstdc++.tbd */; };
+		ACC2C78D1F1997E000C2B2D1 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = ACC2C78C1F1997E000C2B2D1 /* Podfile */; };
 		ACF13F061F18D77700C98BAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF13F051F18D77700C98BAB /* AppDelegate.swift */; };
 		ACF13F081F18D77700C98BAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF13F071F18D77700C98BAB /* ViewController.swift */; };
 		ACF13F0B1F18D77700C98BAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF13F091F18D77700C98BAB /* Main.storyboard */; };
@@ -14,6 +19,7 @@
 		ACF13F101F18D77700C98BAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF13F0E1F18D77700C98BAB /* LaunchScreen.storyboard */; };
 		ACF13F1B1F18D77700C98BAB /* mehTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF13F1A1F18D77700C98BAB /* mehTests.swift */; };
 		ACF13F261F18D77700C98BAB /* mehUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF13F251F18D77700C98BAB /* mehUITests.swift */; };
+		EA3D4409ADB8D1791BBB264E /* Pods_meh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A74749F1E56A7DA7344337 /* Pods_meh.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05A74749F1E56A7DA7344337 /* Pods_meh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E57ED0C376462A0D03688D /* Pods_mehTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mehTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB2C7F5B18DD50EA8575F27 /* Pods-mehUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mehUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mehUITests/Pods-mehUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		989D28D00EBFA77FAF460F41 /* Pods-meh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meh.release.xcconfig"; path = "Pods/Target Support Files/Pods-meh/Pods-meh.release.xcconfig"; sourceTree = "<group>"; };
+		9DBA6B91B69AC4E3961A3185 /* Pods-mehTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mehTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mehTests/Pods-mehTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC929BE2EF5F22A89FFC98DC /* Pods-mehTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mehTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mehTests/Pods-mehTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC94E2BC1F199DB500813398 /* lion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lion.png; sourceTree = "<group>"; };
+		AC94E2BE1F199DBC00813398 /* squeeze_init_net.pb */ = {isa = PBXFileReference; lastKnownFileType = file; path = squeeze_init_net.pb; sourceTree = "<group>"; };
+		AC94E2BF1F199DBC00813398 /* squeeze_predict_net.pb */ = {isa = PBXFileReference; lastKnownFileType = file; path = squeeze_predict_net.pb; sourceTree = "<group>"; };
+		ACA9CC5A1F19728600CF49A7 /* meh-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "meh-Bridging-Header.h"; sourceTree = "<group>"; };
+		ACC2C78A1F19847800C2B2D1 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		ACC2C78C1F1997E000C2B2D1 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ACF13F021F18D77700C98BAB /* meh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF13F051F18D77700C98BAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACF13F071F18D77700C98BAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +65,9 @@
 		ACF13F211F18D77700C98BAB /* mehUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mehUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF13F251F18D77700C98BAB /* mehUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mehUITests.swift; sourceTree = "<group>"; };
 		ACF13F271F18D77700C98BAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B17256E083B14C4BB2A20A32 /* Pods-meh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-meh/Pods-meh.debug.xcconfig"; sourceTree = "<group>"; };
+		BB4FA2252CF018081F99B5DA /* Pods_mehUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mehUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D38871554BAC0EA10F4C98 /* Pods-mehUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mehUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mehUITests/Pods-mehUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACC2C78B1F19847800C2B2D1 /* libstdc++.tbd in Frameworks */,
+				EA3D4409ADB8D1791BBB264E /* Pods_meh.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61CD3F8E5ACD70DE7930ED6D /* Pods_mehTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +92,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33F48D807BF2C4539949B571 /* Pods_mehUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F5FB12F63389F74AAB81737 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B17256E083B14C4BB2A20A32 /* Pods-meh.debug.xcconfig */,
+				989D28D00EBFA77FAF460F41 /* Pods-meh.release.xcconfig */,
+				AC929BE2EF5F22A89FFC98DC /* Pods-mehTests.debug.xcconfig */,
+				9DBA6B91B69AC4E3961A3185 /* Pods-mehTests.release.xcconfig */,
+				8CB2C7F5B18DD50EA8575F27 /* Pods-mehUITests.debug.xcconfig */,
+				F2D38871554BAC0EA10F4C98 /* Pods-mehUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ACA9CC551F1971A500CF49A7 /* caffe2 */ = {
+			isa = PBXGroup;
+			children = (
+				AC94E2BE1F199DBC00813398 /* squeeze_init_net.pb */,
+				AC94E2BF1F199DBC00813398 /* squeeze_predict_net.pb */,
+				AC94E2BC1F199DB500813398 /* lion.png */,
+			);
+			name = caffe2;
+			sourceTree = "<group>";
+		};
+		ACC2C7891F19847800C2B2D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACC2C78A1F19847800C2B2D1 /* libstdc++.tbd */,
+				05A74749F1E56A7DA7344337 /* Pods_meh.framework */,
+				14E57ED0C376462A0D03688D /* Pods_mehTests.framework */,
+				BB4FA2252CF018081F99B5DA /* Pods_mehUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ACF13EF91F18D77700C98BAB = {
 			isa = PBXGroup;
 			children = (
+				ACC2C78C1F1997E000C2B2D1 /* Podfile */,
 				ACF13F041F18D77700C98BAB /* meh */,
 				ACF13F191F18D77700C98BAB /* mehTests */,
 				ACF13F241F18D77700C98BAB /* mehUITests */,
 				ACF13F031F18D77700C98BAB /* Products */,
+				ACC2C7891F19847800C2B2D1 /* Frameworks */,
+				9F5FB12F63389F74AAB81737 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +159,10 @@
 		ACF13F041F18D77700C98BAB /* meh */ = {
 			isa = PBXGroup;
 			children = (
+				ACA9CC551F1971A500CF49A7 /* caffe2 */,
 				ACF13F051F18D77700C98BAB /* AppDelegate.swift */,
 				ACF13F071F18D77700C98BAB /* ViewController.swift */,
+				ACA9CC5A1F19728600CF49A7 /* meh-Bridging-Header.h */,
 				ACF13F091F18D77700C98BAB /* Main.storyboard */,
 				ACF13F0C1F18D77700C98BAB /* Assets.xcassets */,
 				ACF13F0E1F18D77700C98BAB /* LaunchScreen.storyboard */,
@@ -132,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACF13F2A1F18D77700C98BAB /* Build configuration list for PBXNativeTarget "meh" */;
 			buildPhases = (
+				4B8159D40B26704A43E3E807 /* [CP] Check Pods Manifest.lock */,
 				ACF13EFE1F18D77700C98BAB /* Sources */,
 				ACF13EFF1F18D77700C98BAB /* Frameworks */,
 				ACF13F001F18D77700C98BAB /* Resources */,
+				7356EF74F361CE9E1FC9C0F7 /* [CP] Embed Pods Frameworks */,
+				C3252AB576FB9E590E121C71 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACF13F2D1F18D77700C98BAB /* Build configuration list for PBXNativeTarget "mehTests" */;
 			buildPhases = (
+				4855EE7903B63D40F36AB175 /* [CP] Check Pods Manifest.lock */,
 				ACF13F121F18D77700C98BAB /* Sources */,
 				ACF13F131F18D77700C98BAB /* Frameworks */,
 				ACF13F141F18D77700C98BAB /* Resources */,
+				ED54AED799942E5EF65C8B73 /* [CP] Embed Pods Frameworks */,
+				784C3A7C526601DD5050D0CC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACF13F301F18D77700C98BAB /* Build configuration list for PBXNativeTarget "mehUITests" */;
 			buildPhases = (
+				8F26A78968488124A84C12B6 /* [CP] Check Pods Manifest.lock */,
 				ACF13F1D1F18D77700C98BAB /* Sources */,
 				ACF13F1E1F18D77700C98BAB /* Frameworks */,
 				ACF13F1F1F18D77700C98BAB /* Resources */,
+				A52143DB87E86393BB634D8B /* [CP] Embed Pods Frameworks */,
+				2600BAABEB8F771A1766F0FE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +267,7 @@
 					ACF13F011F18D77700C98BAB = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = DA8CC8669S;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					ACF13F151F18D77700C98BAB = {
@@ -236,7 +310,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACF13F101F18D77700C98BAB /* LaunchScreen.storyboard in Resources */,
+				AC94E2BD1F199DB500813398 /* lion.png in Resources */,
 				ACF13F0D1F18D77700C98BAB /* Assets.xcassets in Resources */,
+				ACC2C78D1F1997E000C2B2D1 /* Podfile in Resources */,
 				ACF13F0B1F18D77700C98BAB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +332,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2600BAABEB8F771A1766F0FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mehUITests/Pods-mehUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4855EE7903B63D40F36AB175 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4B8159D40B26704A43E3E807 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7356EF74F361CE9E1FC9C0F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-meh/Pods-meh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		784C3A7C526601DD5050D0CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mehTests/Pods-mehTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F26A78968488124A84C12B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A52143DB87E86393BB634D8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mehUITests/Pods-mehUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3252AB576FB9E590E121C71 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-meh/Pods-meh-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED54AED799942E5EF65C8B73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mehTests/Pods-mehTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ACF13EFE1F18D77700C98BAB /* Sources */ = {
@@ -415,32 +629,60 @@
 		};
 		ACF13F2B1F18D77700C98BAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B17256E083B14C4BB2A20A32 /* Pods-meh.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = DA8CC8669S;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = meh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/meh",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(PODS_ROOT)/Caffe2Kit/install/lib/libCaffe2_CPU.a\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = asdf.meh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "meh/meh-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		ACF13F2C1F18D77700C98BAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 989D28D00EBFA77FAF460F41 /* Pods-meh.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = DA8CC8669S;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = meh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/meh",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(PODS_ROOT)/Caffe2Kit/install/lib/libCaffe2_CPU.a\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = asdf.meh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "meh/meh-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		ACF13F2E1F18D77700C98BAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC929BE2EF5F22A89FFC98DC /* Pods-mehTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +698,7 @@
 		};
 		ACF13F2F1F18D77700C98BAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DBA6B91B69AC4E3961A3185 /* Pods-mehTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +714,7 @@
 		};
 		ACF13F311F18D77700C98BAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CB2C7F5B18DD50EA8575F27 /* Pods-mehUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = DA8CC8669S;
@@ -485,6 +729,7 @@
 		};
 		ACF13F321F18D77700C98BAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2D38871554BAC0EA10F4C98 /* Pods-mehUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = DA8CC8669S;
@@ -516,6 +761,7 @@
 				ACF13F2C1F18D77700C98BAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACF13F2D1F18D77700C98BAB /* Build configuration list for PBXNativeTarget "mehTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +770,7 @@
 				ACF13F2F1F18D77700C98BAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACF13F301F18D77700C98BAB /* Build configuration list for PBXNativeTarget "mehUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +779,7 @@
 				ACF13F321F18D77700C98BAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
